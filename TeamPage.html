@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>session3-takehome2</title>
+    <style>
+      body {
+        background-color: snow;
+      }
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .team-heading {
+        color: indigo;
+        text-align: center;
+      }
+      .team-para {
+        color: gray;
+        text-align: center;
+      }
+      .team-member {
+        width: 256px;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+      }
+      #Anna {
+        background-color: darkcyan;
+        color: beige;
+      }
+      #Anna > h2,
+      #Anna > h3 {
+        color: honeydew;
+      }
+      #Harry {
+        background-color: cornsilk;
+      }
+      #Harry > h2,
+      #Harry > h3,
+      #Harry > p {
+        color: darkslategray;
+      }
+
+      #Sofia {
+        background-color: dodgerblue;
+        color: lightcyan;
+      }
+      #Sofia > h2,
+      #Sofia > h3 {
+        color: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="team-heading">MEET THE TEAM</h1>
+      <p class="team-para">The people who make the software awesome</p>
+    </header>
+    <section>
+      <div class="team-member" id="Anna">
+        <img
+          src="https://avatars.dicebear.com/api/avataaars/annakendrick.svg
+"
+          alt="Anna"
+        />
+        <h2>Anna Kendrick</h2>
+        <h3>Front-end Ninja</h3>
+        <p>
+          Bibliophile, loves to dive into fictional worlds, ships JS code like
+          brownies
+        </p>
+      </div>
+      <div class="team-member" id="Harry">
+        <img
+          src="https://avatars.dicebear.com/api/avataaars/harryfn.svg
+"
+          alt="Harry"
+        />
+        <h2>Harry Fawn</h2>
+        <h3>Illustrator</h3>
+        <p>
+          Creates new illustrations each week, will kill for coffee, and loves
+          beaches.
+        </p>
+      </div>
+      <div class="team-member" id="Sofia">
+        <img
+          src=" https://avatars.dicebear.com/api/avataaars/sofiasul.svg"
+          alt="Sofia"
+        />
+        <h2>Sofia Sultan</h2>
+        <h3>Backend Engineer</h3>
+        <p>
+          Donuts over waffles. Martinis over whiskeys. Typescript over anything.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
